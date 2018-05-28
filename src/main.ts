@@ -17,7 +17,8 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 	Components:
 	-- Game
-	-- Shuffle btn div
+	-- Info div
+	---- Shuffle btn
 	-- Discard zone div 
 	---- Deck
 	------ Card
