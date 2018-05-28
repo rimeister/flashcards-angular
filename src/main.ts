@@ -10,3 +10,16 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+
+/*
+
+	** Architecture of this app **
+
+	Components:
+	-- Game
+	-- Shuffle btn div
+	-- Discard zone div 
+	---- Deck
+	------ Card
+
+*/
