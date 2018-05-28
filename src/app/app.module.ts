@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { GameComponent } from './game/game.component';
 import { InfoComponent } from './info/info.component';
 import { ShuffleBtnComponent } from './shuffle-btn/shuffle-btn.component';
+import { DeckComponent } from './deck/deck.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GameComponent,
     InfoComponent,
-    ShuffleBtnComponent
+    ShuffleBtnComponent,
+    DeckComponent
   ],
   imports: [
     BrowserModule
