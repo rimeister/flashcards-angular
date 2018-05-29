@@ -1,4 +1,4 @@
-var flashcard_QA = [
+[
 	{
 		"q": "<h3>What is JSON?</h3>",
 		"a": "<p>JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.</p>",

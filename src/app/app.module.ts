@@ -23,7 +23,8 @@ import { AddCardsPipe } from './add-cards.pipe';
     AddCardsPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
