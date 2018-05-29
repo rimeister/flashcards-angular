@@ -1,3 +1,14 @@
-<p>
-  A Card!
-</p>
+<div class="card_container stacked_card">
+    <div class="flip">
+        <div class="card_front">
+            <div class="front_val">
+                <h3>{{ cardData.q }}</h3>
+            </div>
+            <div class="cat_val">{{ cardData.category }}</div>
+        </div>
+        <div class="card_back">
+            <div class="back_val">
+                <p>{{ cardData.q }}</p><a href="{{ cardData.link }}" target="_blank">Learn More<img src="lib/images/info.svg"></a></div>
+        </div>
+    </div>
+</div>

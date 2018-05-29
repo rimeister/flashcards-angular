@@ -18,6 +18,8 @@ export class AppComponent implements OnInit {
 	}
 
 	ngOnInit(): void { // Void, so of no type request -- get, post, etc.
+		// So: The component that uses the data needs to import it, and import the HttpClient module at the top of the file to do the request.
+		// i.e., it can't go on app.component.ts. This data can be passed into child elements via props, though. 
 		this.http.get<Object>('../assets/json/flashcard_QA.json').subscribe(
 			data => {
 				this.cards = data;
