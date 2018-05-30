@@ -10,6 +10,9 @@ import { InfoComponent } from './info/info.component';
 import { ShuffleBtnComponent } from './shuffle-btn/shuffle-btn.component';
 import { DeckComponent } from './deck/deck.component';
 import { CardComponent } from './card/card.component';
+import { ZoneComponent } from './zone/zone.component';
+
+// Pipe to get JSON data for cards
 import { AddCardsPipe } from './add-cards.pipe';
 
 @NgModule({
@@ -20,7 +23,8 @@ import { AddCardsPipe } from './add-cards.pipe';
     ShuffleBtnComponent,
     DeckComponent,
     CardComponent,
-    AddCardsPipe
+    AddCardsPipe,
+    ZoneComponent
   ],
   imports: [
     BrowserModule,
