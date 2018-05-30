@@ -1,3 +1,3 @@
 <div id="deck_div">
-	<app-card *ngFor="let card of (cards | addCards)" [cardData]="card"></app-card>
+	<app-card *ngFor="let card of (cards | addCards); let i = index" [cardData]="card" [index]="i" ng-style="$ctrl.updatePosition()"></app-card>
 </div>
