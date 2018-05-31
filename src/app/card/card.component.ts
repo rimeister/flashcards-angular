@@ -10,17 +10,19 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardComponent implements OnInit {
 
 	cardData:object = this.cardData;	
-	index:number = this.index;	
+	index:number = this.index;
+	cardClass:string;	
 	cardStyle:object;
 
 
 	constructor() {
-		this.cardStyle = {'margin-top':'0px'}
+		this.cardStyle = {'top':'0px','left':'0px'} // Add properties to cardStyle object, value 0px to start
 	}
 
 	ngOnInit() {
-		console.log(this.index+'px');
-		this.cardStyle['margin-top'] = this.index+'px';
+		this.cardStyle['top'] = this.index+'px';
+		this.cardStyle['left'] = this.index+'px';
+		this.cardClass = 'stacked_card';
 	}
 
 }
