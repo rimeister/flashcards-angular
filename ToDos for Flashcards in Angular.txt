@@ -1,0 +1,4 @@
+ToDos for Flashcards in Angular
+
+-- Add shuffle functionality
+-- Add drag and drop functionality
